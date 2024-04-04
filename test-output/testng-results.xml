@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="18" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-04T15:01:14 IST" name="Suite" finished-at="2024-04-04T15:03:40 IST" duration-ms="145682">
+    <groups>
+      <group name="Regression">
+        <method signature="TestDiwalicard.carddata()[pri:9, instance:testcases.TestDiwalicard@478190fc]" name="carddata" class="testcases.TestDiwalicard"/>
+        <method signature="Testcab.menu()[pri:7, instance:testcases.Testcab@5158b42f]" name="menu" class="testcases.Testcab"/>
+        <method signature="Testcab.showprice()[pri:6, instance:testcases.Testcab@5158b42f]" name="showprice" class="testcases.Testcab"/>
+        <method signature="Testgiftcard.giftcard()[pri:8, instance:testcases.Testgiftcard@399f45b1]" name="giftcard" class="testcases.Testgiftcard"/>
+        <method signature="Testhome.cab()[pri:2, instance:testcases.Testhome@7ec7ffd3]" name="cab" class="testcases.Testhome"/>
+        <method signature="Testhome.datetravel()[pri:3, instance:testcases.Testhome@7ec7ffd3]" name="datetravel" class="testcases.Testhome"/>
+        <method signature="Testhome.popup()[pri:1, instance:testcases.Testhome@7ec7ffd3]" name="popup" class="testcases.Testhome"/>
+        <method signature="Testhome.submittravel()[pri:5, instance:testcases.Testhome@7ec7ffd3]" name="submittravel" class="testcases.Testhome"/>
+        <method signature="Testhome.timetravel()[pri:4, instance:testcases.Testhome@7ec7ffd3]" name="timetravel" class="testcases.Testhome"/>
+        <method signature="Testhotel.hoteladultdetails()[pri:10, instance:testcases.Testhotel@3a93b025]" name="hoteladultdetails" class="testcases.Testhotel"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TestDiwalicard.carddata()[pri:9, instance:testcases.TestDiwalicard@478190fc]" name="carddata" class="testcases.TestDiwalicard"/>
+        <method signature="Testcab.menu()[pri:7, instance:testcases.Testcab@5158b42f]" name="menu" class="testcases.Testcab"/>
+        <method signature="Testcab.showprice()[pri:6, instance:testcases.Testcab@5158b42f]" name="showprice" class="testcases.Testcab"/>
+        <method signature="Testgiftcard.giftcard()[pri:8, instance:testcases.Testgiftcard@399f45b1]" name="giftcard" class="testcases.Testgiftcard"/>
+        <method signature="Testhome.cab()[pri:2, instance:testcases.Testhome@7ec7ffd3]" name="cab" class="testcases.Testhome"/>
+        <method signature="Testhome.datetravel()[pri:3, instance:testcases.Testhome@7ec7ffd3]" name="datetravel" class="testcases.Testhome"/>
+        <method signature="Testhome.popup()[pri:1, instance:testcases.Testhome@7ec7ffd3]" name="popup" class="testcases.Testhome"/>
+        <method signature="Testhome.submittravel()[pri:5, instance:testcases.Testhome@7ec7ffd3]" name="submittravel" class="testcases.Testhome"/>
+        <method signature="Testhome.timetravel()[pri:4, instance:testcases.Testhome@7ec7ffd3]" name="timetravel" class="testcases.Testhome"/>
+        <method signature="Testhotel.hoteladultdetails()[pri:10, instance:testcases.Testhotel@3a93b025]" name="hoteladultdetails" class="testcases.Testhotel"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-04-04T15:01:14 IST" name="Test" finished-at="2024-04-04T15:03:40 IST" duration-ms="145682">
+      <class name="testcases.Testhotel">
+        <test-method signature="hoteladultdetails()[pri:10, instance:testcases.Testhotel@3a93b025]" started-at="2024-04-04T15:03:23 IST" name="hoteladultdetails" finished-at="2024-04-04T15:03:40 IST" duration-ms="17178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoteladultdetails -->
+      </class> <!-- testcases.Testhotel -->
+      <class name="testcases.Testhome">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:testcases.Testhome@7ec7ffd3]" started-at="2024-04-04T15:00:03 IST" name="beforeSuite" finished-at="2024-04-04T15:01:14 IST" duration-ms="71169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="popup()[pri:1, instance:testcases.Testhome@7ec7ffd3]" started-at="2024-04-04T15:01:15 IST" name="popup" finished-at="2024-04-04T15:01:17 IST" duration-ms="2578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popup -->
+        <test-method signature="cab()[pri:2, instance:testcases.Testhome@7ec7ffd3]" started-at="2024-04-04T15:01:17 IST" name="cab" finished-at="2024-04-04T15:01:27 IST" duration-ms="9822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cab -->
+        <test-method signature="datetravel()[pri:3, instance:testcases.Testhome@7ec7ffd3]" started-at="2024-04-04T15:01:27 IST" name="datetravel" finished-at="2024-04-04T15:01:29 IST" duration-ms="2441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datetravel -->
+        <test-method signature="timetravel()[pri:4, instance:testcases.Testhome@7ec7ffd3]" started-at="2024-04-04T15:01:29 IST" name="timetravel" finished-at="2024-04-04T15:01:33 IST" duration-ms="4043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timetravel -->
+        <test-method signature="submittravel()[pri:5, instance:testcases.Testhome@7ec7ffd3]" started-at="2024-04-04T15:01:33 IST" name="submittravel" finished-at="2024-04-04T15:02:42 IST" duration-ms="68999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submittravel -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.Testhome@7ec7ffd3]" started-at="2024-04-04T15:03:40 IST" name="afterSuite" finished-at="2024-04-04T15:03:44 IST" duration-ms="4234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.Testhome -->
+      <class name="testcases.TestDiwalicard">
+        <test-method signature="carddata()[pri:9, instance:testcases.TestDiwalicard@478190fc]" started-at="2024-04-04T15:03:05 IST" name="carddata" finished-at="2024-04-04T15:03:23 IST" duration-ms="17870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carddata -->
+      </class> <!-- testcases.TestDiwalicard -->
+      <class name="testcases.Testcab">
+        <test-method signature="showprice()[pri:6, instance:testcases.Testcab@5158b42f]" started-at="2024-04-04T15:02:42 IST" name="showprice" finished-at="2024-04-04T15:02:49 IST" duration-ms="6392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showprice -->
+        <test-method signature="menu()[pri:7, instance:testcases.Testcab@5158b42f]" started-at="2024-04-04T15:02:49 IST" name="menu" finished-at="2024-04-04T15:02:55 IST" duration-ms="6419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menu -->
+      </class> <!-- testcases.Testcab -->
+      <class name="testcases.Testgiftcard">
+        <test-method signature="giftcard()[pri:8, instance:testcases.Testgiftcard@399f45b1]" started-at="2024-04-04T15:02:55 IST" name="giftcard" finished-at="2024-04-04T15:03:05 IST" duration-ms="9800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftcard -->
+      </class> <!-- testcases.Testgiftcard -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
